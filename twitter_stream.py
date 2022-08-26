@@ -152,7 +152,7 @@ if __name__ == '__main__':
     global stream
     dbService = DbService()
     dbService.initConnect()
-    dbService.removeAll()
+    # dbService.removeAll()
 
     stream = InOutStream(bearer_token=BEARER_TOKEN)
     cleanAllRules()
